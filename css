@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Playpen+Sans:wght@500;600;700&display=swap');
+
+*{
+    text-decoration: none;  
+    color:white;  
+}
+
+body{
+    background: #1A1D29;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header img{
+    width:80px;
+}
+
+
+
+header{
+    padding: 10px 20px;
+    border-bottom: 1px solid rgba(70, 70, 70, 0.425);
+}
+
+header:hover{
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    flex-direction: column; 
+    width: 379px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    border: 1px solid #292d3a;
+    padding: 20px 40px 50px;
+    border-radius: 14px;
+    
+    
+}
+
+.principal p{
+      text-align: justify;
+      font-size: 14px;
+      line-height: 26px;
+}
+
+.principal h3{
+    font-size: 24px;
+}
+
+.segundo{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.segundo input{
+    background: #292d3a;
+    margin-top: 30px;
+    padding: 20px 12px;
+    border-radius: 4px;
+    border:none;
+  
+
+}
+
+.segundo button{
+    margin-top: 30px;
+    padding: 14px 20px;
+    border-radius: 4px;
+    background: #0072D2;
+    color:white;
+    font-size: 17px;
+    border:none;
+}
+
+.segundo button:hover{
+    cursor: pointer;
+}
+
+#segundop{
+    margin-top: 35px;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+#forte:hover{
+    text-decoration: underline;
+    color:#0072D2;
+}
+
+footer img{
+   margin-left: 39rem;
+   padding-top: 40px;
+  
+
+}
+
+footer{
+    margin-top: 70px;
+    background: #0c0d13;
+    height: 120px;
+}
