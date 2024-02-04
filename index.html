@@ -10,28 +10,27 @@
     <title>Entrar|Disney+</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <a href=""><img src="https://www.tech-wd.com/wd/wp-content/uploads/2019/03/1200px-Disney_logo.svg_.png" alt="logo-disney" title="logo"></a></nav>
-    </header>
     <main>
-        <div class="principal">
-            <h3>Use o email para entrar</h3>
-            <p>Você usará esse email e senha para entrar na conta do
-                Disney+ e assistir às suas séries e filmes preferidos.
-            </p>
-        </div>
-        <form class="segundo">
-            <input type="email" placeholder="E-mail">
-            <button>Continuar</button>
-        </form>
-        <p id="segundop">Não tem Disney+? <a href="pag2.html#cadastro"><strong id="forte">Assine</strong> </a></p>
-    </main>
+        <div class="container">
+            <div class="principal">
+                <h3>Entrar</h3>
+            </div>
+            <form class="login">
+                <input id="email-oficial" type="email" placeholder="E-mail">
+                <input id="password" type="password" placeholder="Senha" maxlength="10" minlength="6">
+                <button>Continuar</button>
+            </form>
+            <p id="subscribe">Não tem Disney+? <a href="pag2.html#cadastro"><strong id="forte">Assine</strong> </a></p>
 
+        </div>
+    </main>
+    <video id="bg-video" autoplay loop muted>
+        <source src="Não Falamos do Bruno (De _Encanto_).mp4">
+    </video>
     <footer>
         <img src="https://www.tech-wd.com/wd/wp-content/uploads/2019/03/1200px-Disney_logo.svg_.png" alt="logo-disney" width="80px">
     </footer>
 
-
+<script src="validacao.js"></script>
 </body>
 </html>

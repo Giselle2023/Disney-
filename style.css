@@ -1,106 +1,110 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Playpen+Sans:wght@500;600;700&display=swap');
 
-*{
-    text-decoration: none;  
-    color:white;  
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
 }
 
-body{
+
+body {
     background: #1A1D29;
-    color:white;
+    color: white;
     font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
 }
 
-header img{
-    width:80px;
-}
 
-
-
-header{
-    padding: 10px 20px;
-    border-bottom: 1px solid rgba(70, 70, 70, 0.425);
-}
-
-header:hover{
-    cursor: pointer;
-}
-
-main{
+main {
+    width: 100%;
     display: flex;
-    flex-direction: column; 
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 70px;
-    border: 1px solid #292d3a;
-    padding: 20px 40px 50px;
-    border-radius: 14px;
-    
-    
+    align-content: center;
+    justify-content: center;
+
 }
 
-.principal p{
-      text-align: justify;
-      font-size: 14px;
-      line-height: 26px;
+main .container {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    padding: 50px;
+    background-color: rgba(42, 40, 40, 0.5);
+    border-radius: 13px;
+    margin-top: 10%;
 }
 
-.principal h3{
+
+.principal h3 {
+    text-align: left;
+    margin-bottom: 22px;
     font-size: 24px;
 }
 
-.segundo{
+.login {
     display: flex;
     flex-direction: column;
-    
-}
-
-.segundo input{
-    background: #292d3a;
-    margin-top: 30px;
-    padding: 20px 12px;
-    border-radius: 4px;
-    outline-style: none;
-    border:none;
   
 
 }
 
-.segundo button{
+.login input {
+    background: #cdced1;
+    margin-top: 10px;
+    padding: 20px 12px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 15px;
+}
+
+.login button {
     margin-top: 30px;
     padding: 14px 20px;
     border-radius: 4px;
     background: #0072D2;
-    color:white;
+    color: white;
     font-size: 17px;
-    border:none;
+    border: none;
+    transition: all .4s ease;
 }
 
-.segundo button:hover{
+.login button:hover {
     cursor: pointer;
+    background-color: #0a7fe0;
 }
 
-#segundop{
+#subscribe {
     margin-top: 35px;
     font-weight: 300;
     font-size: 15px;
 }
 
-#forte:hover{
-    text-decoration: underline;
-    color:#0072D2;
-}
-
-footer img{
-   margin-left: 39rem;
-   padding-top: 40px;
-  
-
-}
-
-footer{
-    margin-top: 70px;
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background: #0c0d13;
-    height: 120px;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+#bg-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-width: 100%;
+    top: 1;
+    z-index: -1;
+    filter: brightness(25%);
+}
+
+
+ 
+  
+  
