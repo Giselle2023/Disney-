@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Playpen+Sans:wght@500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body {
+    background: #1A1D29;
+    background-image: url('https://img.olhardigital.com.br/wp-content/uploads/2021/06/Luca1.jpg');
+    backdrop-filter: brightness(32%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+
+main {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+main .container {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    padding: 50px;
+    background-color: rgba(42, 40, 40, 0.5);
+    border-radius: 13px;
+    margin-top: 10%;
+}
+
+
+.principal h3 {
+    text-align: left;
+    margin-bottom: 22px;
+    font-size: 24px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+  
+
+}
+
+.login input {
+    background: #cdced1;
+    margin-top: 10px;
+    padding: 20px 12px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 15px;
+}
+
+.login button {
+    margin-top: 30px;
+    padding: 14px 20px;
+    border-radius: 4px;
+    background: #0072D2;
+    color: white;
+    font-size: 17px;
+    border: none;
+    transition: all .4s ease;
+}
+
+.login button:hover {
+    cursor: pointer;
+    background-color: #0a7fe0;
+}
+
+#subscribe {
+    margin-top: 35px;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #0c0d13;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+ 
+  
+  

@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Playpen+Sans:wght@500;600;700&display=swap');
+
+* {
+    text-decoration: none;
+    margin: 0%;
+    padding: 0cap;
+    color: white;
+}
+
+body {
+    background: #04070f;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 6%;
+    overflow-x: hidden;
+}
+
+.menu-navegaçao {
+    display: flex;
+    justify-content: flex-end;
+    padding: 22px;
+    padding-right: 5%;
+
+}
+
+.menu-navegaçao button {
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    background: rgb(15, 68, 214);
+    border-radius: 4px;
+    font-size: 15px;
+    transition: all .5s ease;
+}
+
+.menu-navegaçao button:hover {
+    background: rgb(15, 72, 228);
+
+}
+
+main {
+    width: 100vw;
+    margin-top: 2%;
+}
+
+.first-section img {
+    width: 160px;
+    padding-bottom: 30px;
+}
+
+.first-section {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.first-section h1 {
+    padding-top: 32px;
+    font-size: 30px;
+}
+
+.first-section button {
+    margin-top: 55px;
+    padding: 15px 80px;
+    background: rgb(15, 68, 214);
+    border-radius: 4px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.first-section button:hover {
+    background: rgb(15, 72, 228);
+}
+
+
+.first-section a {
+    font-size: 14px;
+    margin-top: 14px;
+}
+
+.first-section a:hover {
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.836);
+    transition: all .4s ease;
+}
+
+.second-section {
+    margin-top: 140px;
+    display: block;
+    text-align: center;
+}
+
+.second-section p {
+    line-height: 70px;
+    font-size: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.164);
+    padding-bottom: 50px;
+    font-weight: 300;
+}
+
+#disney {
+    color: rgb(15, 72, 228);
+}
+
+.second-section h3 {
+    padding-top: 50px;
+    border-top: 1px solid rgba(255, 255, 255, 0.164);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.third-section {
+    margin-top: 60px;
+    display: flex;
+    gap: 78px;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-section div {
+    text-align: justify;
+    max-width: 580px;
+
+
+}
+
+.third-section div h2 {
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+aside img {
+    height: 450px;
+}
+
+.fourth-section {
+    margin-top: 170px;
+    text-align: center;
+}
+
+.fourth-section-firsttext {
+    line-height: 28px;
+
+}
+
+.fourth-section-firsttext h2 {
+    font-weight: 600;
+}
+
+.fourth-section-firsttext p {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.movies {
+    display: flex;
+    max-width: 1140px;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 6rem;
+    cursor: pointer;
+}
+
+
+.movies img {
+    width: 360px;
+    transition: all 300ms;
+}
+
+.movies img:hover {
+    filter: brightness(60%);
+}
+
+#lucca {
+    width: 450px;
+}
+
+.five-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+    gap: 140px;
+    align-items: center;
+
+}
+
+.cadastro-form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 480px;
+    border: 1px solid rgba(50, 50, 50, 0.548);
+    border-radius: 25px 0 ;
+    align-items: center;
+    background-color: rgb(28, 28, 28);
+}
+
+.login {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.login h3 {
+    font-weight: 600;
+    font-size: 18pt;
+}
+
+.login-input {
+    border-radius: 12px;
+    font-size: 12px;
+    padding: 20px 10px;
+    color: black;
+    border-radius: 3px;
+    border:none;
+    border-radius: 3px;
+    margin: 5px 0;
+
+
+}
+
+.btn-cadastro {
+    width: 100%;
+    margin-top: 15px;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    background: rgb(15, 68, 214);
+}
